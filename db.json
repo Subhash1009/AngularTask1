@@ -1,0 +1,106 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "products": [
+    {
+      "name": "APPLE iPhone 13",
+      "price": "Rs.59999",
+      "category": "Mobile",
+      "description": "128 GB ROM with Super Retina XDR Display",
+      "url": "https://rukminim2.flixcart.com/image/312/312/l0igvww0/mobile/r/q/m/-original-imagca5ajerqpfjy.jpeg?q=70"
+    },
+    {
+      "name": "Realme",
+      "price": "Rs.19000",
+      "category": "Mobile",
+      "description": "8 GB RAM | 128 GB ROM | Expandable Upto 1 TB",
+      "url": "https://rukminim2.flixcart.com/image/832/832/xif0q/mobile/8/u/s/-original-imagkp8yreabrzh2.jpeg?q=70"
+    },
+    {
+      "name": "Oneplus Nord 2T 5G",
+      "price": "Rs.29000",
+      "category": "Mobile",
+      "description": "8 GB RAM | 128 GB ROM | Expandable Upto 1 TB",
+      "url": "https://rukminim2.flixcart.com/image/832/832/xif0q/mobile/f/a/v/-original-imagfx6b9shazw8u.jpeg?q=70"
+    },
+    {
+      "name": "OnePlus Buds Pro 2 Bluetooth Headset",
+      "price": "Rs.11999",
+      "category": "Bluetooth Buds",
+      "description": "Arbor Green with True Wireless",
+      "url": "https://rukminim2.flixcart.com/image/612/612/xif0q/headphone/z/l/f/buds-pro-2-oneplus-original-imaghtn6pfhr9yya.jpeg?q=70"
+    },
+    {
+      "name": "Skullcandy Ink'd Plus Wired Headset ",
+      "price": "Rs.1098",
+      "category": "Wired Earphones",
+      "description": "Cobalt Blue, In the Ear",
+      "url": "https://rukminim2.flixcart.com/image/612/612/kctf0cw0/headphone/j/p/g/inkd-plus-with-mic-blue-skullcandy-original-imaftu7yv8wrrgaq.jpeg?q=70"
+    },
+    {
+      "name": "Google Pixel Buds Pro ",
+      "price": "Rs.18990",
+      "category": "Active Noise Cancellation Bluetooth Headset",
+      "description": "Bluetooth version: 5",
+      "url": "https://rukminim2.flixcart.com/image/832/832/l5ld8y80/headphone/e/8/o/ga03201-google-original-imagg8d7bhxjduze.jpeg?q=70"
+    }
+  ],
+  "Login": [
+    {
+      "fullName": "Swaroop",
+      "email": "naniswaroop01@gmail.com",
+      "password": "12345",
+      "id": 1
+    },
+    {
+      "fullName": "Nani",
+      "email": "naniswaroop11@gmail.com",
+      "password": "Swaroop",
+      "id": 2
+    },
+    {
+      "fullName": "Subhash",
+      "email": "subhashkrishna17@gmail.com",
+      "password": "123",
+      "id": 3
+    },
+    {
+      "fullName": "Ben",
+      "email": "ben@gmail.com",
+      "password": "123",
+      "id": 4
+    },
+    {
+      "fullName": "Mahan",
+      "email": "mahan@hcl.com",
+      "password": "hcl",
+      "id": 5
+    },
+    {
+      "fullName": "Depp",
+      "email": "depp@gmail.com",
+      "password": "Depp",
+      "id": 6
+    },
+    {
+      "fullName": "Test",
+      "email": "test@gmail.com",
+      "password": "test",
+      "id": 7
+    },
+    {
+      "fullName": "Oliver",
+      "email": "oliver@gmail.com",
+      "password": "oliver",
+      "id": 8
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

@@ -1,20 +1,18 @@
+<form style="margin: auto; width: 220px;">
+  <div class="container">
 
+    <table class="table table-sm table-bordered m-t-2">
+      <tr>
+        <th>Name</th>
+        <th>Movie</th>
 
-<form style="margin: auto; width: 220px;background-color:cornflowerblue;"> 
-    <div class="container">
-   
-        <table class="table table-sm table-bordered m-t-2">
-          <tr>
-            <th>Name</th>
-            <th>Movie</th>
-            
-          </tr>
-          <tr *ngFor="let user of users">
-            <td>{{user.name}}</td>
-            <td>{{user.movie}}</td>
-           
-          </tr>
-        </table>
-    
-      </div>
-    </form>
+      </tr>
+      <tr *ngFor="let user of users">
+        <td>{{user.name}}</td>
+        <td>{{user.movie}}</td>
+
+      </tr>
+    </table>
+
+  </div>
+</form>

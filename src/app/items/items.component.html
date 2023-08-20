@@ -1,0 +1,32 @@
+<app-header></app-header>
+<div class="row">
+
+  <div class="column" *ngFor="let product of products">
+
+    <mat-card style="height:330px;">
+
+      <mat-card-content>
+
+        <img [src]="product.url" alt="image" style="width: 140px; height: 120px; float: left; margin-left:10%"><br>
+
+        <div style="float: right; margin-right: 15%;"><br>
+
+          <p style="font-family: times, serif; font-size:14pt; font-style:italic;"> <strong>Name : </strong>{{
+            product.name }}</p>
+
+          <p style="font-family: times, serif; font-size:14pt; font-style:italic;"><strong>Price : </strong>{{
+            product.price
+            }}</p>
+
+          <p style="font-family: times, serif; font-size:14pt; font-style:italic;"> <strong>Category : </strong> : {{
+            product.category }}</p>
+          <p style="font-family: times, serif; font-size:14pt; font-style:italic;"><strong>Description : </strong>{{
+            product.description}}</p><br><br><br>
+        </div>
+
+        <div style="margin-top:40%"></div>
+
+
+
+      </mat-card-content>
+    </mat-card>

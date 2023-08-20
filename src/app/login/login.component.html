@@ -1,9 +1,22 @@
-<body style="background-color:lightskyblue">
-    <h3>Enter UserID <input type="text" id="fname" name="fname"> </h3>
-<br>
-
-<h3>Enter Password <input type="password" id="fname" name="fname"></h3>
-
-<br>
-<input type = "submit" style="display: grid;">
-</body>
+<mat-card style="margin-left: 40%;width:20%;margin-top:5% ;background-color: blueviolet;">
+    <mat-card-header>
+      <mat-card-title>Login</mat-card-title>
+    </mat-card-header><hr>
+    <mat-card-content>
+      <form #loginForm="ngForm" (ngSubmit)="onSubmit()">
+  
+        <mat-form-field appearance="fill">
+          <mat-label>Name</mat-label>
+          <input matInput type="name" name="name" [(ngModel)]="name" required>
+        </mat-form-field><br>
+  
+        <mat-form-field appearance="fill">
+          <mat-label>Password</mat-label>
+          <input matInput type="password" name="password" [(ngModel)]="password" required>
+        </mat-form-field><br>
+  
+        <button mat-raised-button color="primary" type="submit">Login</button>
+      </form><br>
+      <p>Not Registered..? <a routerLink="/register">Click Here</a></p>
+    </mat-card-content>
+  </mat-card>

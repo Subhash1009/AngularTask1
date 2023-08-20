@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { Router } from '@angular/router';
-import { LoginComponent } from './login/login.component';
+//import { LoginComponent } from './login/login.component';
 
 @Component({
   selector: 'app-root',
@@ -8,20 +8,21 @@ import { LoginComponent } from './login/login.component';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  constructor(private router:Router)
-  {
-    
+  constructor(private router: Router) {
+
   }
   title = 'Angular-Task1';
 
-  btnLogin()
-  {
+  btnLogin() {
     this.router.navigate(['login']);
   }
 
-  btndash()
-  {
+  btndash() {
     this.router.navigate(['dashboard']);
+  }
+  btnproducts() {
+    this.router.navigate(['items']);
+
   }
 
 }
